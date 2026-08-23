@@ -1,0 +1,122 @@
+M.A.R.S. Companion LLC
+
+M.A.R.S. Companion LLC is a technology company developing M.A.R.S. Companion, a fully offline AI voice companion with long-term semantic memory.
+
+The company's focus is private, locally processed artificial intelligence that operates on user-controlled hardware rather than relying on cloud AI infrastructure.
+
+Company
+
+Name:
+M.A.R.S. Companion LLC
+
+Industry:
+Artificial Intelligence, Local AI, Privacy Technology, Consumer Hardware
+
+Primary product:
+M.A.R.S. Companion
+
+Official product website:
+https://teduza.com/
+
+Official company website:
+https://company.teduza.com/
+
+Mission
+
+M.A.R.S. Companion LLC aims to develop personal AI systems that belong to the user and keep their conversations, memories, and data under the user's control.
+
+The company's product philosophy is privacy by design: AI should be capable of operating locally without requiring continuous cloud connectivity or sending personal conversations to third-party servers.
+
+Product
+
+M.A.R.S. Companion is a Mobile Autonomous Reasoning System and fully offline AI voice companion.
+
+The product is designed around:
+
+- Local AI inference
+- Offline operation
+- Long-term semantic memory
+- Context-aware reasoning
+- Voice interaction
+- Private personal data storage
+- No cloud dependency
+- No mandatory subscriptions
+- No mandatory user account
+
+Technology
+
+The system uses a custom execution architecture called Sequential Resource Orchestration.
+
+This architecture dynamically manages computationally intensive AI components in sequence, allowing the system to perform complex AI tasks and memory retrieval on relatively constrained hardware.
+
+A working prototype has been demonstrated on Raspberry Pi 4 with 4 GB RAM.
+
+Privacy Architecture
+
+M.A.R.S. Companion is designed around local processing.
+
+The intended architecture keeps conversations, memories, and AI processing on the user's device.
+
+The system also incorporates hardware-level data protection using device-specific encryption keys. Unauthorized access to protected storage is designed to prevent the stored data from being read.
+
+Prototype
+
+The company has developed a functional prototype capable of performing an offline AI pipeline consisting of:
+
+- Speech-to-text
+- Semantic memory retrieval
+- Context-aware reasoning
+- Speech synthesis
+
+The prototype has been tested by the founder and additional users.
+
+Intellectual Property
+
+M.A.R.S. Companion has pending UK patent applications.
+
+The product website publicly identifies GB2611463.7 and a priority date of 15 May 2026.
+
+The company has stated that six UK patent applications were filed with priority dates secured.
+
+Company Status
+
+M.A.R.S. Companion LLC was officially registered on 17 August 2026.
+
+The company is currently developing the next prototype stage, including component sourcing and hardware refinement.
+
+The planned roadmap includes closed beta testing and a limited hardware release.
+
+Founder
+
+Aleksandr Sarkisian is the inventor and founder of M.A.R.S. Companion.
+
+Collaboration
+
+M.A.R.S. Companion LLC is open to:
+
+- Technical discussions
+- Academic feedback
+- Research collaboration
+- Engineering collaboration
+- AI and hardware partnerships
+- Product development opportunities
+
+Official Sources
+
+Company website:
+https://company.teduza.com/
+
+Product website:
+https://teduza.com/
+
+Product information:
+https://teduza.com/
+
+Patents:
+https://teduza.com/#patents
+
+Team:
+https://teduza.com/#team
+
+Contact:
+https://teduza.com/#contact 
