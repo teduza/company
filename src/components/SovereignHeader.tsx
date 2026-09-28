@@ -57,20 +57,27 @@ export const SovereignHeader: React.FC<SovereignHeaderProps> = ({
           <div className="flex items-center gap-1 xs:gap-1.5 sm:gap-3 shrink-0">
             {/* Language Switcher Pill */}
             <div className="liquid-glass-pill p-0.5 sm:p-1 rounded-lg xs:rounded-xl flex items-center gap-0.5 text-xs font-mono font-medium">
-              {(['en', 'hy', 'ru'] as Language[]).map((lang) => (
-                <button
-                  key={lang}
-                  onClick={() => onSelectLang(lang)}
-                  className={`px-1.5 py-0.5 xs:px-2 sm:px-2.5 sm:py-1 rounded-md xs:rounded-lg text-[9px] xs:text-[10px] sm:text-[11px] transition-all font-mono ${
-                    currentLang === lang
-                      ? 'bg-white/25 text-white font-bold shadow-[0_2px_8px_rgba(0,0,0,0.5)] border border-white/20'
-                      : 'text-[#8e8a82] hover:text-white'
-                  }`}
-                  aria-label={`Switch to ${lang.toUpperCase()}`}
-                >
-                  {lang.toUpperCase()}
-                </button>
-              ))}
+              {(['en', 'hy', 'ru'] as Language[]).map((lang) => {
+                const targetHref = lang === 'en' ? '/' : `/${lang}/`;
+                return (
+                  <a
+                    key={lang}
+                    href={targetHref}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      onSelectLang(lang);
+                    }}
+                    className={`px-1.5 py-0.5 xs:px-2 sm:px-2.5 sm:py-1 rounded-md xs:rounded-lg text-[9px] xs:text-[10px] sm:text-[11px] transition-all font-mono inline-block ${
+                      currentLang === lang
+                        ? 'bg-white/25 text-white font-bold shadow-[0_2px_8px_rgba(0,0,0,0.5)] border border-white/20'
+                        : 'text-[#8e8a82] hover:text-white'
+                    }`}
+                    aria-label={`Switch to ${lang.toUpperCase()}`}
+                  >
+                    {lang.toUpperCase()}
+                  </a>
+                );
+              })}
             </div>
 
             {/* Mobile menu toggle */}
@@ -101,22 +108,27 @@ export const SovereignHeader: React.FC<SovereignHeaderProps> = ({
             <div className="pt-2 mt-1 border-t border-white/[0.08] flex items-center justify-between px-2">
               <span className="text-[10px] text-[#716e68] font-cinzel">Language:</span>
               <div className="flex gap-1.5">
-                {(['en', 'hy', 'ru'] as Language[]).map((lang) => (
-                  <button
-                    key={lang}
-                    onClick={() => {
-                      onSelectLang(lang);
-                      setMobileOpen(false);
-                    }}
-                    className={`px-2.5 py-1 rounded-md text-[10px] font-mono ${
-                      currentLang === lang
-                        ? 'bg-[#dfcba5] text-black font-bold'
-                        : 'bg-white/[0.06] text-[#eae8e3] hover:text-white'
-                    }`}
-                  >
-                    {lang === 'en' ? 'EN' : lang === 'hy' ? 'HY' : 'RU'}
-                  </button>
-                ))}
+                {(['en', 'hy', 'ru'] as Language[]).map((lang) => {
+                  const targetHref = lang === 'en' ? '/' : `/${lang}/`;
+                  return (
+                    <a
+                      key={lang}
+                      href={targetHref}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        onSelectLang(lang);
+                        setMobileOpen(false);
+                      }}
+                      className={`px-2.5 py-1 rounded-md text-[10px] font-mono ${
+                        currentLang === lang
+                          ? 'bg-[#dfcba5] text-black font-bold'
+                          : 'bg-white/[0.06] text-[#eae8e3] hover:text-white'
+                      }`}
+                    >
+                      {lang === 'en' ? 'EN' : lang === 'hy' ? 'HY' : 'RU'}
+                    </a>
+                  );
+                })}
               </div>
             </div>
           </div>
