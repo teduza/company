@@ -1,6 +1,6 @@
 {
-  "name": "M.A.R.S. Companion LLC",
-  "description": "Official corporate platform of M.A.R.S. Companion LLC, registered in Kapan, Armenia. Founded by Aleksandr Sarkisian (Sargsyan), developing privacy-first offline AI and UK-patented sovereign voice companions.",
+  "name": "M.A.R.S. COMPANION LLC",
+  "description": "Official corporate platform of M.A.R.S. COMPANION LLC, registered in Kapan, Armenia. Founded by Aleksandr Sarkisian (Sargsyan), developing privacy-first offline AI and UK-patented sovereign voice companions.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"

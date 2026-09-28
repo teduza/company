@@ -86,7 +86,7 @@ export const SovereignFooter: React.FC<SovereignFooterProps> = ({ data, onOpenSc
         {/* Footnote */}
         <div className="text-[11px] text-[#716e68] flex flex-col sm:flex-row sm:items-center justify-between gap-2">
           <div>
-            Official corporate portal of M.A.R.S. Companion LLC
+            Official corporate portal of M.A.R.S. COMPANION LLC
           </div>
           <div className="font-cinzel text-[10px] tracking-widest text-[#716e68]">
             Sovereign Technology · Kapan

@@ -1,9 +1,9 @@
-M.A.R.S. Companion LLC
+M.A.R.S. COMPANION LLC
 
 Official Corporate Portal: https://company.teduza.com/
 Wikidata Item: https://www.wikidata.org/wiki/Q141447626
 
-M.A.R.S. Companion LLC is a technology company registered in Kapan, Republic of Armenia (Registration # 999.110.1603426, Tax ID: 09433977).
+M.A.R.S. COMPANION LLC is a technology company registered in Kapan, Republic of Armenia (Registration # 999.110.1603426, Tax ID: 09433977).
 The company is developing M.A.R.S. Companion, a fully offline AI voice companion with long-term semantic memory, operating under license to 6 UK patent applications invented by Aleksandr Sarkisian.
 
 Founder & Sole Developer
@@ -24,6 +24,7 @@ Alternate Names & Aliases:
 Founder Identifiers & Registries:
 - Wikidata: https://www.wikidata.org/wiki/Q141447666 (Q141447666)
 - Personal Portal: https://sarkisian.teduza.com/
+- Personal Website: https://sarkisian.site/
 - News Portal: https://news.teduza.com/
 - Google Scholar: https://scholar.google.com/citations?user=KVpNW_QAAAAJ
 - ORCID: https://orcid.org/0009-0007-6747-2634
@@ -71,11 +72,12 @@ Official Web Properties & Ecosystem
 - Corporate Registry: https://company.teduza.com/
 - Product Website: https://teduza.com/ (Wikidata: https://www.wikidata.org/wiki/Q141448028)
 - Founder Portal: https://sarkisian.teduza.com/
+- Personal Website: https://sarkisian.site/
 - News & Press Portal: https://news.teduza.com/
 - Why Armenia / Doctrine: https://why.teduza.com/
 
 Press Contact
 Kira Dudnik (Кира Дудник)
-Press Secretary of Aleksandr Sarkisian & M.A.R.S. Companion LLC
+Press Secretary of Aleksandr Sarkisian & M.A.R.S. COMPANION LLC
 Wikidata: https://www.wikidata.org/wiki/Q141448092
 Email: dudunik@teduza.com

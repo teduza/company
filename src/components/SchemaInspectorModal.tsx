@@ -31,7 +31,7 @@ export const SchemaInspectorModal: React.FC<SchemaInspectorModalProps> = ({
         "@type": "WebSite",
         "@id": "https://company.teduza.com/#website",
         "url": "https://company.teduza.com",
-        "name": "M.A.R.S. Companion LLC Corporate Registry & Sovereign Platform",
+        "name": "M.A.R.S. COMPANION LLC Corporate Registry & Sovereign Platform",
         "publisher": {
           "@id": "https://company.teduza.com/#organization"
         },
@@ -40,10 +40,10 @@ export const SchemaInspectorModal: React.FC<SchemaInspectorModalProps> = ({
       {
         "@type": "Organization",
         "@id": "https://company.teduza.com/#organization",
-        "name": "M.A.R.S. Companion LLC",
+        "name": "M.A.R.S. COMPANION LLC",
         "legalName": "M.A.R.S. COMPANION LLC",
         "alternateName": [
-          "MARS Companion LLC",
+          "MARS COMPANION LLC",
           "M.A.R.S. Companion",
           "MARS Companion",
           "ԷՄ.ԷՅ.ԱՐ.ԷՍ ՔԱՄՓԱՆԻՈՆ ՍՊԸ",
@@ -54,7 +54,7 @@ export const SchemaInspectorModal: React.FC<SchemaInspectorModalProps> = ({
         "logo": {
           "@type": "ImageObject",
           "url": "https://company.teduza.com/logo.png",
-          "caption": "M.A.R.S. Companion LLC Seal"
+          "caption": "M.A.R.S. COMPANION LLC Seal"
         },
         "image": "https://company.teduza.com/logo.png",
         "foundingDate": "2026-08-17",
@@ -130,7 +130,7 @@ export const SchemaInspectorModal: React.FC<SchemaInspectorModalProps> = ({
         "birthDate": "2008-05-14",
         "nationality": ["Armenia", "Russia"],
         "jobTitle": "Founder & Sole Developer",
-        "description": "Founder and sole developer of M.A.R.S. Companion LLC. Sole applicant and named inventor on 6 UK patent applications in offline AI voice reasoning, semantic memory, and operational manifesto architectures. Licensor of proprietary technologies to M.A.R.S. Companion LLC.",
+        "description": "Founder and sole developer of M.A.R.S. COMPANION LLC. Sole applicant and named inventor on 6 UK patent applications in offline AI voice reasoning, semantic memory, and operational manifesto architectures. Licensor of proprietary technologies to M.A.R.S. COMPANION LLC.",
         "image": "https://company.teduza.com/aleksandr-sarkisian.jpg",
         "worksFor": {
           "@id": "https://company.teduza.com/#organization"

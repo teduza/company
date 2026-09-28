@@ -28,7 +28,7 @@ export const SovereignHeader: React.FC<SovereignHeaderProps> = ({
             <div className="w-6 h-6 xs:w-7 xs:h-7 sm:w-8 sm:h-8 rounded-lg xs:rounded-xl liquid-glass-pill p-1 flex items-center justify-center border border-white/25 group-hover:border-[#dfcba5]/70 transition-all shadow-[0_4px_12px_rgba(0,0,0,0.5)] shrink-0">
               <img
                 src="/logo.png"
-                alt="M.A.R.S. Companion LLC"
+                alt="M.A.R.S. COMPANION LLC"
                 className="w-full h-full object-contain"
                 onError={(e) => {
                   (e.currentTarget as HTMLElement).style.display = 'none';

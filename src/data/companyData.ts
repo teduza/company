@@ -23,7 +23,6 @@ export interface EcosystemLink {
   url: string;
   badge: string;
   desc: string;
-  status?: string;
 }
 
 export interface CompanyData {
@@ -82,8 +81,6 @@ export interface CompanyData {
   founderExploreUrl: string;
   founderTelegramLabel: string;
   founderTelegramUrl: string;
-  founderEmailLabel: string;
-  founderEmailUrl: string;
 
   // Registries moved to footer
   footerRegistriesTitle: string;
@@ -124,8 +121,8 @@ export interface CompanyData {
     milestones: string;
     registration: string;
     founder: string;
-    ecosystem: string;
     press: string;
+    ecosystem: string;
     contact: string;
   };
 }
@@ -134,10 +131,10 @@ export const companyDataByLang: Record<Language, CompanyData> = {
   en: {
     langPath: '/',
     metaTitle: 'M.A.R.S. COMPANION LLC',
-    metaDesc: 'M.A.R.S. Companion LLC is an Armenian technology company in Kapan founded by Aleksandr Sarkisian (Саркисян Александр Давидович). Operates under license to 6 UK patent filings for offline AI.',
+    metaDesc: 'M.A.R.S. COMPANION LLC is an Armenian technology company in Kapan founded by Aleksandr Sarkisian (Саркисян Александр Давидович). Operates under license to 6 UK patent filings for offline AI.',
 
     eyebrow: 'Company Information',
-    h1: 'M.A.R.S. Companion LLC',
+    h1: 'M.A.R.S. COMPANION LLC',
     lead: 'A technology company registered in the Republic of Armenia. Building privacy-focused offline artificial intelligence.',
 
     aboutTitle: 'About the Company',
@@ -206,14 +203,12 @@ export const companyDataByLang: Record<Language, CompanyData> = {
     founderTitle: 'Founder',
     founderKicker: 'Founder & Sole Developer',
     founderName: 'Aleksandr Sarkisian',
-    founderRole: 'Named inventor on 6 UK patent filings; Licensor to M.A.R.S. Companion LLC',
+    founderRole: 'Named inventor on 6 UK patent filings; Licensor to M.A.R.S. COMPANION LLC',
     founderBio: "I am the founder and sole developer of M.A.R.S. Companion. I personally write all of the product's code and am the named inventor on all six patent applications filed with the UK Intellectual Property Office (UK IPO). The company develops the product under license to these proprietary technologies. The decision to register the company in Armenia and tie its future to Kapan, Syunik, is a personal and deliberate choice — not a formality.",
     founderExploreBtn: 'Explore Founder Dossier',
     founderExploreUrl: 'https://sarkisian.teduza.com',
     founderTelegramLabel: 'Telegram: @teduza',
     founderTelegramUrl: 'https://t.me/teduza',
-    founderEmailLabel: 'sarkisian.site@gmail.com',
-    founderEmailUrl: 'mailto:sarkisian.site@gmail.com',
 
     footerRegistriesTitle: 'Global Registries & Knowledge Graph',
     founderRegistries: [
@@ -232,40 +227,35 @@ export const companyDataByLang: Record<Language, CompanyData> = {
         domain: 'sarkisian.teduza.com',
         url: 'https://sarkisian.teduza.com',
         badge: 'Founder Dossier',
-        desc: 'Official biographical portal, personal dossier, and archive of founder Aleksandr Sarkisian.',
-        status: 'Active'
+        desc: 'Official biographical portal, personal dossier, and archive of founder Aleksandr Sarkisian.'
       },
       {
         title: 'sarkisian.site',
         domain: 'sarkisian.site',
         url: 'https://sarkisian.site',
-        badge: 'Personal Portal',
-        desc: 'Comprehensive personal website, extended bio, and media archive (in development).',
-        status: 'Coming Soon'
+        badge: 'Personal Website',
+        desc: 'Personal website, personal archive, and publications of Aleksandr Sarkisian.'
       },
       {
         title: 'teduza.com',
         domain: 'teduza.com',
         url: 'https://teduza.com',
         badge: 'Core AI Product',
-        desc: 'M.A.R.S. Companion — 100% offline personal AI voice companion with lifelong semantic memory.',
-        status: 'Active'
+        desc: 'M.A.R.S. Companion — 100% offline personal AI voice companion with lifelong semantic memory.'
       },
       {
         title: 'news.teduza.com',
         domain: 'news.teduza.com',
         url: 'https://news.teduza.com',
         badge: 'Newsroom',
-        desc: 'Official news bulletin, announcements, and corporate press releases of M.A.R.S. Companion LLC.',
-        status: 'Active'
+        desc: 'Official news bulletin, announcements, and corporate press releases of M.A.R.S. COMPANION LLC.'
       },
       {
         title: 'why.teduza.com',
         domain: 'why.teduza.com',
         url: 'https://why.teduza.com',
         badge: 'Manifesto',
-        desc: 'Technological manifesto, privacy doctrine, and the strategic rationale for Kapan, Armenia.',
-        status: 'Active'
+        desc: 'Technological manifesto, privacy doctrine, and the strategic rationale for Kapan, Armenia.'
       }
     ],
 
@@ -281,11 +271,10 @@ export const companyDataByLang: Record<Language, CompanyData> = {
     contactLinks: [
       { label: 'contact@teduza.com', href: 'mailto:contact@teduza.com', note: '(general inquiries)' },
       { label: 'dudunik@teduza.com', href: 'mailto:dudunik@teduza.com', note: '(press / Kira Dudnik)' },
-      { label: 'sarkisian.site@gmail.com', href: 'mailto:sarkisian.site@gmail.com', note: '(founder direct)' },
       { label: '@teduza', href: 'https://t.me/teduza', note: '(telegram direct)' }
     ],
 
-    footerCopyright: '© 2026 M.A.R.S. Companion LLC',
+    footerCopyright: '© 2026 M.A.R.S. COMPANION LLC',
     footerLocation: 'Kapan, Syunik, Republic of Armenia',
     footerWhyArmenia: 'Why Armenia',
 
@@ -296,8 +285,8 @@ export const companyDataByLang: Record<Language, CompanyData> = {
       milestones: 'Milestones',
       registration: 'Registration',
       founder: 'Founder',
-      ecosystem: 'Ecosystem',
       press: 'Press',
+      ecosystem: 'Ecosystem',
       contact: 'Contact'
     }
   },
@@ -305,10 +294,10 @@ export const companyDataByLang: Record<Language, CompanyData> = {
   ru: {
     langPath: '/ru/',
     metaTitle: 'M.A.R.S. COMPANION LLC',
-    metaDesc: 'M.A.R.S. Companion LLC — технологическая компания в г. Капан (Армения). Основатель и разработчик — Саркисян Александр Давидович. 6 патентных заявок UK IPO на офлайн-ИИ.',
+    metaDesc: 'M.A.R.S. COMPANION LLC — технологическая компания в г. Капан (Армения). Основатель и разработчик — Саркисян Александр Давидович. 6 патентных заявок UK IPO на офлайн-ИИ.',
 
     eyebrow: 'Информация о компании',
-    h1: 'M.A.R.S. Companion LLC',
+    h1: 'M.A.R.S. COMPANION LLC',
     lead: 'Технологическая компания, зарегистрированная в Республике Армения. Разрабатывает офлайн-технологии искусственного интеллекта, ориентированные на приватность.',
 
     aboutTitle: 'О компании',
@@ -383,8 +372,6 @@ export const companyDataByLang: Record<Language, CompanyData> = {
     founderExploreUrl: 'https://sarkisian.teduza.com',
     founderTelegramLabel: 'Telegram: @teduza',
     founderTelegramUrl: 'https://t.me/teduza',
-    founderEmailLabel: 'sarkisian.site@gmail.com',
-    founderEmailUrl: 'mailto:sarkisian.site@gmail.com',
 
     footerRegistriesTitle: 'Глобальные реестры и граф знаний',
     founderRegistries: [
@@ -403,40 +390,35 @@ export const companyDataByLang: Record<Language, CompanyData> = {
         domain: 'sarkisian.teduza.com',
         url: 'https://sarkisian.teduza.com',
         badge: 'Изучить основателя',
-        desc: 'Официальный биографический ресурс, архив, досье и материалы об Александре Саркисяне.',
-        status: 'Активен'
+        desc: 'Официальный биографический ресурс, архив, досье и материалы об Александре Саркисяне.'
       },
       {
         title: 'sarkisian.site',
         domain: 'sarkisian.site',
         url: 'https://sarkisian.site',
         badge: 'Персональный сайт',
-        desc: 'Будущий расширенный персональный сайт, блог и подробный архив основателя.',
-        status: 'Скоро'
+        desc: 'Персональный сайт, авторский архив и публикации Александра Саркисяна.'
       },
       {
         title: 'teduza.com',
         domain: 'teduza.com',
         url: 'https://teduza.com',
         badge: 'AI-продукт',
-        desc: 'M.A.R.S. Companion — полностью автономный голосовой AI-компаньон с постоянной памятью.',
-        status: 'Активен'
+        desc: 'M.A.R.S. Companion — полностью автономный голосовой AI-компаньон с постоянной памятью.'
       },
       {
         title: 'news.teduza.com',
         domain: 'news.teduza.com',
         url: 'https://news.teduza.com',
         badge: 'Пресс-центр',
-        desc: 'Новостной портал, сообщения прессы и корпоративные заявления M.A.R.S. Companion LLC.',
-        status: 'Активен'
+        desc: 'Новостной портал, сообщения прессы и корпоративные заявления M.A.R.S. COMPANION LLC.'
       },
       {
         title: 'why.teduza.com',
         domain: 'why.teduza.com',
         url: 'https://why.teduza.com',
         badge: 'Манифест',
-        desc: 'Технологический манифест, философия приватности и обоснование выбора Капана и Армении.',
-        status: 'Активен'
+        desc: 'Технологический манифест, философия приватности и обоснование выбора Капана и Армении.'
       }
     ],
 
@@ -452,11 +434,10 @@ export const companyDataByLang: Record<Language, CompanyData> = {
     contactLinks: [
       { label: 'contact@teduza.com', href: 'mailto:contact@teduza.com', note: '(общие вопросы)' },
       { label: 'dudunik@teduza.com', href: 'mailto:dudunik@teduza.com', note: '(пресс-служба / Кира Дудник)' },
-      { label: 'sarkisian.site@gmail.com', href: 'mailto:sarkisian.site@gmail.com', note: '(почта основателя)' },
       { label: '@teduza', href: 'https://t.me/teduza', note: '(telegram основателя)' }
     ],
 
-    footerCopyright: '© 2026 M.A.R.S. Companion LLC',
+    footerCopyright: '© 2026 M.A.R.S. COMPANION LLC',
     footerLocation: 'г. Капан, Сюник, Республика Армения',
     footerWhyArmenia: 'Почему Армения',
 
@@ -467,8 +448,8 @@ export const companyDataByLang: Record<Language, CompanyData> = {
       milestones: 'Вехи',
       registration: 'Реквизиты',
       founder: 'Основатель',
-      ecosystem: 'Экосистема',
       press: 'Пресса',
+      ecosystem: 'Экосистема',
       contact: 'Контакты'
     }
   },
@@ -476,10 +457,10 @@ export const companyDataByLang: Record<Language, CompanyData> = {
   hy: {
     langPath: '/hy/',
     metaTitle: 'M.A.R.S. COMPANION LLC',
-    metaDesc: 'ԷՄ.ԷՅ.ԱՐ.ԷՍ ՔԱՄՓԱՆԻՈՆ ՍՊԸ՝ տեխնոլոգիական ընկերություն գրանցված Հայաստանում (ք. Կապան): Հիմնադիր՝ Ալեքսանդր Սարգսյան: 6 արտոնագրային հայտ Մեծ Բրիտանիայում:',
+    metaDesc: 'M.A.R.S. COMPANION LLC՝ տեխնոլոգիական ընկերություն գրանցված Հայաստանում (ք. Կապան): Հիմնադիր՝ Ալեքսանդր Սարգսյան: 6 արտոնագրային հայտ Մեծ Բրիտանիայում:',
 
     eyebrow: 'Ընկերության մասին',
-    h1: 'M.A.R.S. Companion LLC',
+    h1: 'M.A.R.S. COMPANION LLC',
     lead: 'Տեխնոլոգիական ընկերություն, գրանցված Հայաստանի Հանրապետությունում։ Մշակում է գաղտնիության վրա կենտրոնացած օֆլայն արհեստական բանականության տեխնոլոգիաներ։',
 
     aboutTitle: 'Մեր մասին',
@@ -527,7 +508,7 @@ export const companyDataByLang: Record<Language, CompanyData> = {
       },
       {
         badge: '2026թ. օգոստոսի 17',
-        text: 'ԷՄ.ԷՅ.ԱՐ.ԷՍ ՔԱՄՓԱՆԻՈՆ ՍՊԸ-ն պաշտոնապես գրանցվել է Հայաստանի Հանրապետությունում (համար 999.110.1603426, ՀՎՀՀ 09433977)'
+        text: 'M.A.R.S. COMPANION LLC-ն պաշտոնապես գրանցվել է Հայաստանի Հանրապետությունում (համար 999.110.1603426, ՀՎՀՀ 09433977)'
       },
       {
         badge: 'Ներկայումս',
@@ -554,8 +535,6 @@ export const companyDataByLang: Record<Language, CompanyData> = {
     founderExploreUrl: 'https://sarkisian.teduza.com',
     founderTelegramLabel: 'Telegram: @teduza',
     founderTelegramUrl: 'https://t.me/teduza',
-    founderEmailLabel: 'sarkisian.site@gmail.com',
-    founderEmailUrl: 'mailto:sarkisian.site@gmail.com',
 
     footerRegistriesTitle: 'Գլոբալ ռեեստրներ և գիտելիքի գրաֆ',
     founderRegistries: [
@@ -574,40 +553,35 @@ export const companyDataByLang: Record<Language, CompanyData> = {
         domain: 'sarkisian.teduza.com',
         url: 'https://sarkisian.teduza.com',
         badge: 'Հիմնադիրի դոսյե',
-        desc: 'Ալեքսանդր Սարգսյանի պաշտոնական կենսագրական արխիվ, դոսյե և նյութեր:',
-        status: 'Ակտիվ'
+        desc: 'Ալեքսանդր Սարգսյանի պաշտոնական կենսագրական արխիվ, դոսյե և նյութեր:'
       },
       {
         title: 'sarkisian.site',
         domain: 'sarkisian.site',
         url: 'https://sarkisian.site',
         badge: 'Անձնական կայք',
-        desc: 'Ապագա ընդլայնված անձնական կայք, բլոգ և հիմնադրի արխիվ (մշակման փուլում):',
-        status: 'Շուտով'
+        desc: 'Անձնական կայք, արխիվ և Ալեքսանդր Սարգսյանի հրապարակումները:'
       },
       {
         title: 'teduza.com',
         domain: 'teduza.com',
         url: 'https://teduza.com',
         badge: 'AI-արտադրանք',
-        desc: 'M.A.R.S. Companion — 100% օֆլայն անձնական AI ձայնային օգնական:',
-        status: 'Ակտիվ'
+        desc: 'M.A.R.S. Companion — 100% օֆլայն անձնական AI ձայնային օգնական:'
       },
       {
         title: 'news.teduza.com',
         domain: 'news.teduza.com',
         url: 'https://news.teduza.com',
         badge: 'Նորություններ',
-        desc: 'M.A.R.S. Companion LLC-ի պաշտոնական լրատվական թողարկումներ և մամուլի հաղորդագրություններ:',
-        status: 'Ակտիվ'
+        desc: 'M.A.R.S. COMPANION LLC-ի պաշտոնական լրատվական թողարկումներ և մամուլի հաղորդագրություններ:'
       },
       {
         title: 'why.teduza.com',
         domain: 'why.teduza.com',
         url: 'https://why.teduza.com',
         badge: 'Մանիֆեստ',
-        desc: 'Տեխնոլոգիական մանիֆեստ, գաղտնիության փիլիսոփայություն և Հայաստանի ընտրությունը:',
-        status: 'Ակտիվ'
+        desc: 'Տեխնոլոգիական մանիֆեստ, գաղտնիության փիլիսոփայություն և Հայաստանի ընտրությունը:'
       }
     ],
 
@@ -623,11 +597,10 @@ export const companyDataByLang: Record<Language, CompanyData> = {
     contactLinks: [
       { label: 'contact@teduza.com', href: 'mailto:contact@teduza.com', note: '(ընդհանուր)' },
       { label: 'dudunik@teduza.com', href: 'mailto:dudunik@teduza.com', note: '(մամուլ / Կիրա Դուդնիկ)' },
-      { label: 'sarkisian.site@gmail.com', href: 'mailto:sarkisian.site@gmail.com', note: '(հիմնադիր)' },
       { label: '@teduza', href: 'https://t.me/teduza', note: '(telegram)' }
     ],
 
-    footerCopyright: '© 2026 ԷՄ.ԷՅ.ԱՐ.ԷՍ ՔԱՄՓԱՆԻՈՆ ՍՊԸ',
+    footerCopyright: '© 2026 M.A.R.S. COMPANION LLC',
     footerLocation: 'ք. Կապան, Սյունիք, Հայաստանի Հանրապետություն',
     footerWhyArmenia: 'Ինչու Հայաստան',
 
@@ -638,8 +611,8 @@ export const companyDataByLang: Record<Language, CompanyData> = {
       milestones: 'Հանգրվաններ',
       registration: 'Տվյալներ',
       founder: 'Հիմնադիր',
-      ecosystem: 'Էկոհամակարգ',
       press: 'Մամուլ',
+      ecosystem: 'Էկոհամակարգ',
       contact: 'Կապ'
     }
   }

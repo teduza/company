@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { CompanyData } from '../data/companyData';
-import { Award, ExternalLink, Send, Mail, UserCheck } from 'lucide-react';
+import { Award, ExternalLink, Send, UserCheck } from 'lucide-react';
 
 interface SovereignFounderProps {
   data: CompanyData;
@@ -106,15 +106,6 @@ export const SovereignFounder: React.FC<SovereignFounderProps> = ({ data }) => {
                 >
                   <Send className="w-3.5 h-3.5 text-[#dfcba5]" />
                   <span>{data.founderTelegramLabel}</span>
-                </a>
-
-                {/* Direct Email */}
-                <a
-                  href={data.founderEmailUrl}
-                  className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl liquid-glass border border-white/10 hover:border-[#dfcba5]/60 text-xs font-mono text-[#f8f7f4] hover:text-[#dfcba5] transition-all"
-                >
-                  <Mail className="w-3.5 h-3.5 text-[#dfcba5]" />
-                  <span>{data.founderEmailLabel}</span>
                 </a>
               </div>
             </div>

@@ -16,7 +16,7 @@ export const SovereignHero: React.FC<SovereignHeroProps> = ({ data }) => {
             <div className="absolute inset-0 bg-radial from-[#dfcba5]/15 to-transparent rounded-2xl pointer-events-none" />
             <img
               src="/logo.png"
-              alt="M.A.R.S. Companion LLC"
+              alt="M.A.R.S. COMPANION LLC"
               className="w-11 h-11 sm:w-14 sm:h-14 object-contain relative z-10 drop-shadow-[0_4px_16px_rgba(223,203,165,0.3)] transition-transform group-hover:scale-105 duration-300"
               onError={(e) => {
                 (e.currentTarget as HTMLElement).style.display = 'none';

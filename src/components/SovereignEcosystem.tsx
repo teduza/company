@@ -1,6 +1,6 @@
 import React from 'react';
 import { CompanyData } from '../data/companyData';
-import { ArrowUpRight, Globe, Compass, Clock, CheckCircle2 } from 'lucide-react';
+import { ArrowUpRight } from 'lucide-react';
 
 interface SovereignEcosystemProps {
   data: CompanyData;
@@ -15,23 +15,19 @@ export const SovereignEcosystem: React.FC<SovereignEcosystemProps> = ({ data }) 
             {data.ecosystemTitle}
           </div>
           <span className="font-mono text-[10px] text-[#8e8a82]">
-            Digital Network · 5 Connected Portals
+            Digital Network · 5 Portals
           </span>
         </div>
 
-        <div className="space-y-3">
+        <div className="space-y-2">
           <h2 className="font-serif-luxury text-2xl sm:text-3xl md:text-4xl text-[#f8f7f4] font-normal tracking-tight break-words">
             {data.ecosystemSubtitle}
           </h2>
-          <p className="font-sans text-xs sm:text-sm text-[#aba7a0] font-light max-w-2xl leading-relaxed">
-            The interconnected digital network encompassing product engineering, news dispatches, personal biographical dossiers, and ideological foundations.
-          </p>
         </div>
 
         {/* 5 Portals Grid completing the circle */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {data.ecosystemLinks.map((item, idx) => {
-            const isComingSoon = item.status === 'Coming Soon' || item.status === 'Скоро' || item.status === 'Շուտով';
             const isFeaturedFounder = item.domain === 'sarkisian.teduza.com';
 
             return (
@@ -42,7 +38,7 @@ export const SovereignEcosystem: React.FC<SovereignEcosystemProps> = ({ data }) 
                 rel="noopener noreferrer"
                 className={`p-4 sm:p-5 rounded-2xl liquid-glass border transition-all flex flex-col justify-between gap-3 group relative overflow-hidden ${
                   isFeaturedFounder
-                    ? 'border-[#dfcba5]/40 hover:border-[#dfcba5] bg-gradient-to-b from-[#dfcba5]/[0.08] to-transparent shadow-[0_4px_20px_rgba(0,0,0,0.4)]'
+                    ? 'border-[#dfcba5]/50 hover:border-[#dfcba5] bg-gradient-to-b from-[#dfcba5]/[0.08] to-transparent shadow-[0_4px_20px_rgba(0,0,0,0.4)]'
                     : 'border-white/10 hover:border-[#dfcba5]/60'
                 }`}
               >
@@ -55,9 +51,7 @@ export const SovereignEcosystem: React.FC<SovereignEcosystemProps> = ({ data }) 
                     </span>
                     <span
                       className={`text-[9px] font-cinzel uppercase px-2 py-0.5 rounded shrink-0 ${
-                        isComingSoon
-                          ? 'bg-white/[0.04] text-[#8e8a82] border border-white/[0.06]'
-                          : isFeaturedFounder
+                        isFeaturedFounder
                           ? 'bg-[#dfcba5]/20 text-[#dfcba5] border border-[#dfcba5]/40 font-bold'
                           : 'bg-white/[0.06] text-[#dfcba5]'
                       }`}
@@ -72,22 +66,9 @@ export const SovereignEcosystem: React.FC<SovereignEcosystemProps> = ({ data }) 
                 </div>
 
                 <div className="flex items-center justify-between pt-2.5 border-t border-white/[0.06] text-[10px] font-cinzel transition-colors">
-                  <span className="flex items-center gap-1 text-[#8e8a82]">
-                    {isComingSoon ? (
-                      <>
-                        <Clock className="w-3 h-3 text-[#aba7a0]" />
-                        <span>{item.status}</span>
-                      </>
-                    ) : (
-                      <>
-                        <CheckCircle2 className="w-3 h-3 text-[#dfcba5]" />
-                        <span>Online</span>
-                      </>
-                    )}
-                  </span>
-                  
+                  <span className="text-[#8e8a82]">Portal</span>
                   <span className="inline-flex items-center gap-1 text-[#dfcba5] group-hover:translate-x-0.5 transition-transform">
-                    <span>Visit</span>
+                    <span>Open</span>
                     <ArrowUpRight className="w-3.5 h-3.5" />
                   </span>
                 </div>

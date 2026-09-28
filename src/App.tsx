@@ -4,12 +4,12 @@ import { SovereignHeader } from './components/SovereignHeader';
 import { SovereignHero } from './components/SovereignHero';
 import { SovereignAbout } from './components/SovereignAbout';
 import { SovereignProjects } from './components/SovereignProjects';
-import { SovereignEcosystem } from './components/SovereignEcosystem';
 import { SovereignPrinciples } from './components/SovereignPrinciples';
 import { SovereignMilestones } from './components/SovereignMilestones';
 import { SovereignRegistration } from './components/SovereignRegistration';
 import { SovereignFounder } from './components/SovereignFounder';
 import { SovereignPress } from './components/SovereignPress';
+import { SovereignEcosystem } from './components/SovereignEcosystem';
 import { SovereignContact } from './components/SovereignContact';
 import { SovereignFooter } from './components/SovereignFooter';
 import { SchemaInspectorModal } from './components/SchemaInspectorModal';
@@ -78,12 +78,12 @@ export default function App() {
         <SovereignHero data={data} />
         <SovereignAbout data={data} />
         <SovereignProjects data={data} />
-        <SovereignEcosystem data={data} />
         <SovereignPrinciples data={data} />
         <SovereignMilestones data={data} />
         <SovereignRegistration data={data} />
         <SovereignFounder data={data} />
         <SovereignPress data={data} />
+        <SovereignEcosystem data={data} />
         <SovereignContact data={data} />
       </main>
 
