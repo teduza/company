@@ -45,40 +45,40 @@ export const SovereignHero: React.FC<SovereignHeroProps> = ({ data }) => {
           <div className="liquid-glass p-3.5 sm:p-4 rounded-xl flex flex-col justify-between overflow-hidden">
             <div className="liquid-specular-edge" />
             <div className="text-[10px] font-cinzel uppercase tracking-wider text-[#8e8a82] truncate">
-              Registration No.
+              {data.heroStats.regLabel}
             </div>
             <div className="text-xs sm:text-sm font-mono font-medium text-[#f8f7f4] mt-1 tracking-tight truncate">
-              999.110.1603426
+              {data.heroStats.regValue}
             </div>
           </div>
 
           <div className="liquid-glass p-3.5 sm:p-4 rounded-xl flex flex-col justify-between overflow-hidden">
             <div className="liquid-specular-edge" />
             <div className="text-[10px] font-cinzel uppercase tracking-wider text-[#8e8a82] truncate">
-              Tax ID (ИНН)
+              {data.heroStats.taxLabel}
             </div>
             <div className="text-xs sm:text-sm font-mono font-medium text-[#f8f7f4] mt-1 tracking-tight truncate">
-              09433977
+              {data.heroStats.taxValue}
             </div>
           </div>
 
           <div className="liquid-glass p-3.5 sm:p-4 rounded-xl flex flex-col justify-between overflow-hidden">
             <div className="liquid-specular-edge" />
             <div className="text-[10px] font-cinzel uppercase tracking-wider text-[#8e8a82] truncate">
-              Jurisdiction
+              {data.heroStats.jurisdictionLabel}
             </div>
             <div className="text-xs sm:text-sm text-[#f8f7f4] mt-1 font-sans truncate">
-              Kapan, Armenia
+              {data.heroStats.jurisdictionValue}
             </div>
           </div>
 
           <div className="liquid-glass p-3.5 sm:p-4 rounded-xl flex flex-col justify-between overflow-hidden border-t border-t-[#dfcba5]/40">
             <div className="liquid-specular-edge" />
             <div className="text-[10px] font-cinzel uppercase tracking-wider text-[#8e8a82] truncate">
-              Patents
+              {data.heroStats.ipLabel}
             </div>
             <div className="text-xs sm:text-sm text-[#dfcba5] mt-1 font-sans font-medium truncate">
-              UK Patent Licensee
+              {data.heroStats.ipValue}
             </div>
           </div>
         </div>
@@ -86,4 +86,3 @@ export const SovereignHero: React.FC<SovereignHeroProps> = ({ data }) => {
     </section>
   );
 };
-

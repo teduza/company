@@ -34,6 +34,17 @@ export interface CompanyData {
   h1: string;
   lead: string;
 
+  heroStats: {
+    regLabel: string;
+    regValue: string;
+    taxLabel: string;
+    taxValue: string;
+    jurisdictionLabel: string;
+    jurisdictionValue: string;
+    ipLabel: string;
+    ipValue: string;
+  };
+
   aboutTitle: string;
   aboutQuoteMeta: string;
   aboutQuoteText: string;
@@ -131,11 +142,22 @@ export const companyDataByLang: Record<Language, CompanyData> = {
   en: {
     langPath: '/',
     metaTitle: 'M.A.R.S. COMPANION LLC',
-    metaDesc: 'M.A.R.S. COMPANION LLC is an Armenian technology company in Kapan founded by Aleksandr Sarkisian (Саркисян Александр Давидович). Operates under license to 6 UK patent filings for offline AI.',
+    metaDesc: 'M.A.R.S. COMPANION LLC is an Armenian technology company in Kapan founded by Aleksandr Sarkisian. Operates under license to 6 UK patent filings for offline AI.',
 
     eyebrow: 'Company Information',
     h1: 'M.A.R.S. COMPANION LLC',
     lead: 'A technology company registered in the Republic of Armenia. Building privacy-focused offline artificial intelligence.',
+
+    heroStats: {
+      regLabel: 'Registration No.',
+      regValue: '999.110.1603426',
+      taxLabel: 'Tax ID (TIN)',
+      taxValue: '09433977',
+      jurisdictionLabel: 'Jurisdiction',
+      jurisdictionValue: 'Kapan, Armenia',
+      ipLabel: 'Patents',
+      ipValue: 'UK Patent Licensee'
+    },
 
     aboutTitle: 'About the Company',
     aboutQuoteMeta: 'Aleksandr Sarkisian — Founder',
@@ -300,6 +322,17 @@ export const companyDataByLang: Record<Language, CompanyData> = {
     h1: 'M.A.R.S. COMPANION LLC',
     lead: 'Технологическая компания, зарегистрированная в Республике Армения. Разрабатывает офлайн-технологии искусственного интеллекта, ориентированные на приватность.',
 
+    heroStats: {
+      regLabel: 'Рег. номер',
+      regValue: '999.110.1603426',
+      taxLabel: 'ИНН / Tax ID',
+      taxValue: '09433977',
+      jurisdictionLabel: 'Юрисдикция',
+      jurisdictionValue: 'г. Капан, Армения',
+      ipLabel: 'Технологии',
+      ipValue: 'Лицензиат патентов UK'
+    },
+
     aboutTitle: 'О компании',
     aboutQuoteMeta: 'Саркисян Александр Давидович — Основатель',
     aboutQuoteText: 'Капан значит для меня многое. Начало было заложено здесь задолго до того, как всё продолжилось в Санкт-Петербурге, — и регистрация компании именно в Капане стала долгожданным возвращением на историческую родину, а не формальным выбором юрисдикции.',
@@ -462,6 +495,17 @@ export const companyDataByLang: Record<Language, CompanyData> = {
     eyebrow: 'Ընկերության մասին',
     h1: 'M.A.R.S. COMPANION LLC',
     lead: 'Տեխնոլոգիական ընկերություն, գրանցված Հայաստանի Հանրապետությունում։ Մշակում է գաղտնիության վրա կենտրոնացած օֆլայն արհեստական բանականության տեխնոլոգիաներ։',
+
+    heroStats: {
+      regLabel: 'Գրանցման համար',
+      regValue: '999.110.1603426',
+      taxLabel: 'ՀՎՀՀ (TIN)',
+      taxValue: '09433977',
+      jurisdictionLabel: 'Իրավազորություն',
+      jurisdictionValue: 'ք. Կապան, Հայաստան',
+      ipLabel: 'Արտոնագրեր',
+      ipValue: 'UK արտոնագրերի լիցենզիառու'
+    },
 
     aboutTitle: 'Մեր մասին',
     aboutQuoteMeta: 'Ալեքսանդր Սարգսյան — Հիմնադիր',
