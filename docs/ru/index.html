@@ -62,119 +62,125 @@
 
     <!-- Google Knowledge Graph & Schema.org Interconnected Entity Graph (Russian) -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@graph": [
+      "@type": "Organization",
+      "@id": "https://company.teduza.com/#organization",
+      "name": "M.A.R.S. COMPANION LLC",
+      "legalName": "M.A.R.S. COMPANION LLC",
+      "alternateName": [
+        "M.A.R.S. COMPANION",
+        "MARS Companion LLC",
+        "М.А.Р.С. КОМПАНЬОН ООО",
+        "ООО «М.А.Р.С. КОМПАНЬОН»"
+      ],
+      "url": "https://company.teduza.com/ru/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://company.teduza.com/#logo",
+        "url": "https://company.teduza.com/logo.png",
+        "caption": "M.A.R.S. COMPANION LLC Emblem"
+      },
+      "image": "https://company.teduza.com/aleksandr-sarkisian.jpg",
+      "foundingDate": "2026",
+      "foundingLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Капан",
+          "addressCountry": "AM"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Капан",
+        "addressRegion": "Сюник",
+        "addressCountry": "AM"
+      },
+      "taxID": "09433977",
+      "identifier": [
         {
-          "@type": "Organization",
-          "@id": "https://company.teduza.com/#organization",
-          "name": "M.A.R.S. COMPANION LLC",
-          "legalName": "M.A.R.S. COMPANION LLC",
+          "@type": "PropertyValue",
+          "name": "Регистрационный номер компании",
+          "value": "999.110.1603426"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "ИНН (Tax ID)",
+          "value": "09433977"
+        }
+      ],
+      "description": "Технологическая компания, зарегистрированная в г. Капан (Республика Армения), разрабатывающая суверенный приватный офлайн искусственный интеллект на основе 6 патентных заявок Великобритании.",
+      "founder": {
+        "@id": "https://company.teduza.com/#founder"
+      },
+      "knowsAbout": [
+        "https://www.wikidata.org/wiki/Q11660",
+        "https://www.wikidata.org/wiki/Q2539"
+      ],
+      "sameAs": [
+        "https://teduza.com",
+        "https://news.teduza.com",
+        "https://why.teduza.com",
+        "https://sarkisian.teduza.com",
+        "https://sarkisian.site"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://company.teduza.com/#founder",
+      "name": "Саркисян Александр Давидович",
+      "givenName": "Александр",
+      "additionalName": "Давидович",
+      "familyName": "Саркисян",
+      "alternateName": [
+        "Aleksandr Sarkisian",
+        "Alexander Sarkisian",
+        "Aleksandr Sargsyan",
+        "teduza",
+        "Александр Саркисян",
+        "Саркисян",
+        "Александр Давидович Саркисян",
+        "Саргсян Александр Давидович",
+        "Саргсян Александр"
+      ],
+      "jobTitle": "Основатель и директор",
+      "worksFor": {
+        "@id": "https://company.teduza.com/#organization"
+      },
+      "sameAs": [
+        "https://sarkisian.teduza.com",
+        "https://sarkisian.site",
+        "https://www.wikidata.org/wiki/Q141447666",
+        "https://orcid.org/0009-0000-8452-4112",
+        "https://isni.org/isni/0000000529452814",
+        "https://scholar.google.com/citations?user=0cbrEFEAAAAJ",
+        "https://www.webofscience.com/wos/author/record/NXR-4155-2025",
+        "https://www.google.com/search?kgmid=/g/11zyrqjbq9",
+        "https://share.google/ewTTrgxnU5UzLJeWD"
+      ],
+      "alumniOf": [
+        {
+          "@type": "EducationalOrganization",
+          "name": "Кронштадтский Морской Кадетский Военный Корпус МО РФ",
           "alternateName": [
-            "M.A.R.S. COMPANION",
-            "MARS Companion LLC",
-            "М.А.Р.С. КОМПАНЬОН ООО",
-            "ООО «М.А.Р.С. КОМПАНЬОН»"
-          ],
-          "url": "https://company.teduza.com/ru/",
-          "logo": {
-            "@type": "ImageObject",
-            "@id": "https://company.teduza.com/#logo",
-            "url": "https://company.teduza.com/logo.png",
-            "caption": "M.A.R.S. COMPANION LLC Emblem"
-          },
-          "image": "https://company.teduza.com/aleksandr-sarkisian.jpg",
-          "foundingDate": "2026",
-          "foundingLocation": {
-            "@type": "Place",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Капан",
-              "addressCountry": "AM"
-            }
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Капан",
-            "addressRegion": "Сюник",
-            "addressCountry": "AM"
-          },
-          "taxID": "09433977",
-          "identifier": [
-            {
-              "@type": "PropertyValue",
-              "name": "Регистрационный номер компании",
-              "value": "999.110.1603426"
-            },
-            {
-              "@type": "PropertyValue",
-              "name": "ИНН (Tax ID)",
-              "value": "09433977"
-            }
-          ],
-          "description": "Технологическая компания, зарегистрированная в г. Капан (Республика Армения), разрабатывающая суверенный приватный офлайн искусственный интеллект на основе 6 патентных заявок Великобритании.",
-          "founder": {
-            "@id": "https://company.teduza.com/#founder"
-          },
-          "knowsAbout": [
-            "https://www.wikidata.org/wiki/Q11660",
-            "https://www.wikidata.org/wiki/Q2539"
-          ],
-          "sameAs": [
-            "https://teduza.com",
-            "https://news.teduza.com",
-            "https://why.teduza.com",
-            "https://sarkisian.teduza.com",
-            "https://sarkisian.site"
+            "КМКВК"
           ]
         },
         {
-          "@type": "Person",
-          "@id": "https://company.teduza.com/#founder",
-          "name": "Саркисян Александр Давидович",
-          "givenName": "Александр",
-          "additionalName": "Давидович",
-          "familyName": "Саркисян",
+          "@type": "EducationalOrganization",
+          "name": "Лицей №410",
           "alternateName": [
-            "Aleksandr Sarkisian",
-            "Alexander Sarkisian",
-            "Aleksandr Sargsyan",
-            "teduza",
-            "Александр Саркисян",
-            "Саркисян",
-            "Александр Давидович Саркисян",
-            "Саргсян Александр Давидович",
-            "Саргсян Александр"
-          ],
-          "jobTitle": "Основатель и директор",
-          "worksFor": {
-            "@id": "https://company.teduza.com/#organization"
-          },
-          "sameAs": [
-            "https://sarkisian.teduza.com",
-            "https://sarkisian.site",
-            "https://www.wikidata.org/wiki/Q141447666",
-            "https://orcid.org/0009-0000-8452-4112",
-            "https://isni.org/isni/0000000529452814",
-            "https://scholar.google.com/citations?user=0cbrEFEAAAAJ",
-            "https://www.webofscience.com/wos/author/record/NXR-4155-2025"
-          ],
-          "alumniOf": [
-            {
-              "@type": "EducationalOrganization",
-              "name": "Кронштадтский Морской Кадетский Военный Корпус МО РФ",
-              "alternateName": ["КМКВК"]
-            },
-            {
-              "@type": "EducationalOrganization",
-              "name": "Лицей №410",
-              "alternateName": ["Лицей №410 Пушкинского района Санкт-Петербурга"]
-            }
+            "Лицей №410 Пушкинского района Санкт-Петербурга"
           ]
         }
       ]
     }
-    </script>
+  ]
+}
+</script>
     <script type="module" crossorigin src="/assets/main-C0XruZQz.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/main-DmeukXiT.css">
   </head>
