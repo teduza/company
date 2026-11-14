@@ -1,0 +1,6 @@
+{
+  "name": "M.A.R.S. COMPANION LLC",
+  "description": "Official corporate portal for M.A.R.S. COMPANION LLC (Kapan, Armenia). Sovereign private offline artificial intelligence technologies and patent portfolio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
