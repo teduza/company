@@ -1,0 +1,201 @@
+M.A.R.S. COMPANION LLC
+
+Official Corporate Portal: https://company.teduza.com/
+Wikidata Item: https://www.wikidata.org/wiki/Q141447626
+
+M.A.R.S. COMPANION LLC is a technology company registered in Kapan, Republic of Armenia (Registration # 999.110.1603426, Tax ID: 09433977).
+The company is developing M.A.R.S. Companion (https://teduza.com) and V.E.N.U.S. Companion (Virtual Emotional Neural Understanding System, https://teduza.cfd), fully offline AI voice companions with long-term semantic memory, holding a total portfolio of 26 UK patent applications (20 owned directly by the company, 6 licensed from inventor Aleksandr Sarkisian).
+
+Leadership & Key Personnel:
+1. Founder & Director
+Name: Aleksandr Sarkisian (Саркисян Александр Давидович)
+Role: Founder, Director, and Named Inventor/Developer on all 26 UK patent filings
+Alternate Names & Aliases:
+- Саркисян Александр Давидович (RU)
+- Саркисян Александр (RU)
+- Александр Саркисян (RU)
+- Саргсян Александр Давидович (RU)
+- Ալեքսանդր Սարգսյան (HY)
+- Alexander Sarkisian (EN)
+- Aleksandr Sargsyan (EN)
+- teduza (online identity / pseudonym)
+
+Founder Identifiers & Registries:
+- Wikidata: https://www.wikidata.org/wiki/Q141447666 (Q141447666)
+- Personal Portal: https://sarkisian.teduza.com/
+- Personal Website: https://sarkisian.site/
+- News Portal: https://news.teduza.com/
+- Google Scholar: https://scholar.google.com/citations?user=KVpNW_QAAAAJ
+- ORCID: https://orcid.org/0009-0007-6747-2634
+- ISNI: https://isni.org/isni/0000000530338018
+- Web of Science ResearcherID: https://www.webofscience.com/wos/author/record/QIT-7789-2026
+- Telegram: https://t.me/teduza
+
+2. Vice President
+Name: Gagik Hakobyan (Гагик Акопян / Գագիկ Հակոբյան)
+Role: Vice President, Executive Operations & Partnerships
+Email: vp@teduza.cfd
+Wikidata: https://www.wikidata.org/wiki/Q142094904 (Q142094904)
+
+3. Company Engineer
+Name: Gor Hakobyan (Гор Акобян / Գոռ Հակոբյան)
+Role: Company Engineer, Hardware Integration & Edge Microcontroller Systems
+Email: gor@teduza.cfd
+Wikidata: https://www.wikidata.org/wiki/Q142094956 (Q142094956)
+
+4. Marketing Officer
+Name: Alex Sahakyan (Алекс Саакян / Ալեքս Սահակյան)
+Role: Marketing Officer, Outreach & Product Positioning
+Email: marketing@teduza.cfd
+
+5. Head of Innovation (Autonomous Artificial Intelligence)
+Name: MARS-001
+Role: Head of Innovation, M.A.R.S. Companion Autonomous Intelligence Instance
+Specification: Autonomous offline edge artificial intelligence instance without external cloud dependencies
+
+Press Secretary:
+Kira Dudnik (Кира Дудник) · Wikidata: https://www.wikidata.org/wiki/Q141448092 · Email: dudunik@teduza.com
+
+Intellectual Property & Patents (UK Intellectual Property Office - UK IPO)
+
+Part A: 20 Patent Applications Owned by M.A.R.S. COMPANION LLC (Inventor/Developer: Aleksandr Sarkisian):
+1. GB2624388.1 (Filing date: 15 October 2026)
+   Title: A Deterministic Lifetime-Graph-Driven Method and Apparatus for Dynamic Volatile Memory Defragmentation, Tensor Relocation and Arena Compaction in Resource-Constrained Microcontroller Units During Autonomous Offline Neural Network Inference
+   Applicant or Owner: M.A.R.S. COMPANION LLC
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2624388.1
+
+2. GB2624406.1 (Filing date: 15 October 2026)
+   Title: A Hardware-Bound Hierarchical Key-Derivation and Streaming Decryption Architecture for Localized Cryptographic Protection of Neural Network Weights Against Physical Tampering, Probing and Extraction in Autonomous Edge Intelligence Devices
+   Applicant or Owner: M.A.R.S. COMPANION LLC
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2624406.1
+
+3. GB2624409.5 (Filing date: 15 October 2026)
+   Title: A Decentralized Peer-to-Peer Ad-Hoc Communication and Time-Slotted Coordination Protocol for Autonomous Multi-Agent Synchronization and Collective Resource Orchestration in Environments Devoid of Internet and Satellite Positioning Services
+   Applicant or Owner: M.A.R.S. COMPANION LLC
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2624409.5
+
+4. GB2624414.5 (Filing date: 15 October 2026)
+   Title: A Page-Aligned Hierarchical Quantized Offline Vector Database Indexing Mechanism for Flash-Memory-Constrained Edge Artificial Intelligence Systems with Wear-Aware Log-Structured Updating
+   Applicant or Owner: M.A.R.S. COMPANION LLC
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2624414.5
+
+5. GB2624415.2 (Filing date: 15 October 2026)
+   Title: A Serverless Opportunistic Federated Training and Staleness-Weighted Low-Rank Parameter Optimization Method for Self-Contained Autonomous Intelligence Models Operating in Isolated Environments
+   Applicant or Owner: M.A.R.S. COMPANION LLC
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2624415.2
+
+6. GB2624416.0 (Filing date: 15 October 2026)
+   Title: An Offline Artificial Intelligence System for Dynamic Container Terminal Logistics, Rolling-Horizon Yard Planning and Sequential Autonomous Resource Orchestration in Seaport Environments Without Cloud Dependency
+   Applicant or Owner: M.A.R.S. COMPANION LLC
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2624416.0
+
+7. GB2626659.3 (Filing date: 10 November 2026)
+   Title: A Localized Multi-Sensor Computer Vision and Spatial Telemetry Fusion Framework for Autonomous Navigation and Cargo Handling Vehicles Operating in Isolated, Satellite-Denied Industrial Zones
+   Applicant or Owner: M.A.R.S. COMPANION LLC
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2626659.3
+
+8. GB2626660.1 (Filing date: 10 November 2026)
+   Title: A Decentralized Edge Intelligence Architecture for Real-Time Multi-Spectral Security Perimeter Surveillance, Cross-Modal Event Verification and Threat Isolation on Standalone Hardware Nodes
+   Applicant or Owner: M.A.R.S. COMPANION LLC
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2626660.1
+
+9. GB2626661.9 (Filing date: 10 November 2026)
+   Title: An Algorithmic Method for Predictive Mechanical Fault Isolation, Modal Parameter Tracking and Structural Integrity Telemetry Processing in Heavy Industrial Seaport Infrastructure Using Standalone Edge Analytics
+   Applicant or Owner: M.A.R.S. COMPANION LLC
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2626661.9
+
+10. GB2626662.7 (Filing date: 10 November 2026)
+   Title: M.A.R.S. OS: A Capability-Based Real-Time Microkernel Operating System Architecture with Worst-Case-Bounded Scheduling for Deterministic Execution of Containerized Neural Network Models on Edge Devices
+   Applicant or Owner: M.A.R.S. COMPANION LLC
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2626662.7
+
+11. GB2626663.5 (Filing date: 10 November 2026)
+   Title: An Intelligent Predictive-Residual Telemetry Filtration, Importance-Weighted Adaptive Sampling and Entropy-Coded Compression Algorithm on Standalone Computing Nodes
+   Applicant or Owner: M.A.R.S. COMPANION LLC
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2626663.5
+
+12. GB2626665.0 (Filing date: 10 November 2026)
+   Title: A Localized Event-Driven Tile-Gated Convolutional Neural Network Architecture with Early-Exit Cascades for Asynchronous Object Detection on Offline Low-Power Edge Processing Units
+   Applicant or Owner: M.A.R.S. COMPANION LLC
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2626665.0
+
+13. GB2626666.8 (Filing date: 10 November 2026)
+   Title: A Predictive Multi-Channel Telemetry Analysis System with Peer Cross-Validation for Automated Proactive Hardware Fault Isolation and Workload Evacuation in Decentralized Computing Clusters
+   Applicant or Owner: M.A.R.S. COMPANION LLC
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2626666.8
+
+14. GB2626667.6 (Filing date: 10 November 2026)
+   Title: A Compressed Conditional Generative Adversarial Network Architecture with On-Device Stability Supervision for Real-Time Synthetic Data Generation and Rare-Event Augmentation on Isolated Computing Nodes
+   Applicant or Owner: M.A.R.S. COMPANION LLC
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2626667.6
+
+15. GB2626668.4 (Filing date: 10 November 2026)
+   Title: A Slack-Aware Multi-Criteria Dynamic Priority Resource Scheduling Algorithmic Framework with Layer-Boundary Preemption for Asynchronous Edge Intelligence Workflows
+   Applicant or Owner: M.A.R.S. COMPANION LLC
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2626668.4
+
+16. GB2626669.2 (Filing date: 10 November 2026)
+   Title: A Keyed Low-Observability Steganographic Communication Protocol for Concealed Neural Network Parameter Exchange Embedded in Standard Industrial Telemetry Streams with Error-Correcting Redundancy
+   Applicant or Owner: M.A.R.S. COMPANION LLC
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2626669.2
+
+17. GB2626670.0 (Filing date: 10 November 2026)
+   Title: An Automated Capability-Vector-Driven Min-Max Latency Partitioning and Diffusive Load-Balancing Method for Heterogeneous Decentralized Neural Network Nodes in Localized Mesh Networks
+   Applicant or Owner: M.A.R.S. COMPANION LLC
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2626670.0
+
+18. GB2626672.6 (Filing date: 10 November 2026)
+   Title: An Edge-Contained Mathematical Method for Recursive Sensor-Feedback-Driven Low-Rank Layer Reconfiguration and Stability-Guarded Optimization of Neural Networks in Autonomous Devices
+   Applicant or Owner: M.A.R.S. COMPANION LLC
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2626672.6
+
+19. GB2626673.4 (Filing date: 10 November 2026)
+   Title: A Non-Linear Cryptographic Encoding, Randomized Execution and Power-Balancing Obfuscation Protocol for On-Device Machine Learning Model Architecture Protection Against Side-Channel Analysis
+   Applicant or Owner: M.A.R.S. COMPANION LLC
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2626673.4
+
+20. GB2626674.2 (Filing date: 10 November 2026)
+   Title: A Journaled Dual-Slot Atomic Checkpointing, Measured-Boot Verification and Secure Cold-Boot State Restoration Protocol for Fail-Safe Operation of Isolated Autonomous Edge Computing Platforms Employing Non-Volatile Memory Arrays
+   Applicant or Owner: M.A.R.S. COMPANION LLC
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2626674.2
+
+Part B: 6 Foundational Patent Applications Licensed to M.A.R.S. COMPANION LLC (Filed May–June 2026, Applicant & Inventor: Aleksandr Sarkisian):
+1. GB2611463.7 (Priority date: 15 May 2026)
+   Title: M.A.R.S. Companion (Mobile Autonomous Reasoning System): Portable Offline Voice Assistant with Sequential Resource Orchestration and Semantic Memory Retrieval
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2611463.7
+   Wikidata: https://www.wikidata.org/wiki/Q141447790
+
+2. GB2613965.9 (Priority date: 16 June 2026)
+   Title: M.A.R.S. Companion: System and Method for Governing Artificial Intelligence Behaviour via an Operational Manifesto Framework
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2613965.9
+   Wikidata: https://www.wikidata.org/wiki/Q141447746
+
+3. GB2613968.3 (Priority date: 17 June 2026)
+   Title: M.A.R.S. Companion: System and Method for Emotional Architecture and Empathetic Interaction in AI Companions
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2613968.3
+   Wikidata: https://www.wikidata.org/wiki/Q141447767
+
+4. GB2613969.1 (Priority date: 17 June 2026)
+   Title: M.A.R.S. Companion: System and Method for Semantic Long-Term Memory Management in AI Companions
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2613969.1
+   Wikidata: https://www.wikidata.org/wiki/Q141447759
+
+5. GB2613970.9 (Priority date: 17 June 2026)
+   Title: M.A.R.S. Companion: System and Method for Maintaining and Managing AI Companion Identity and Personality Persistence
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2613970.9
+   Wikidata: https://www.wikidata.org/wiki/Q141447779
+
+6. GB2614145.7 (Priority date: 18 June 2026)
+   Title: M.A.R.S. Companion: System and Method for Autonomous Physical Embodiment, Hardware-Anchored Identity, and Trust-Gated Introspective Agency in Artificial Intelligence
+   UK IPO Search: https://www.search-for-intellectual-property.service.gov.uk/GB2614145.7
+   Wikidata: https://www.wikidata.org/wiki/Q141447786
+
+Official Web Properties & Ecosystem:
+- Corporate Registry: https://company.teduza.com/
+- AI Research Department (David Sargsyan AI Research Lab, established 13 November 2026): https://lab.teduza.com/ (RU: https://lab.teduza.com/ru/ | HY: https://lab.teduza.com/hy/)
+- Product Website (M.A.R.S. Companion): https://teduza.com/ (Wikidata: https://www.wikidata.org/wiki/Q141448028)
+- Product Website (V.E.N.U.S. Companion): https://teduza.cfd/ (RU: https://teduza.cfd/ru/ | HY: https://teduza.cfd/hy/)
+- Founder Portal: https://sarkisian.teduza.com/
+- Personal Website: https://sarkisian.site/
+- News & Press Portal: https://news.teduza.com/
+- Why Armenia / Doctrine: https://why.teduza.com/
